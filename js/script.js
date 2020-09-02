@@ -33,7 +33,7 @@ Evidenziare le festività nella lista
 
 $(document).ready(function () {
     //inizializzo data al 01/01/2018
-    var currentDate = moment("2018-03-01", "YYYY-MM-DD");
+    var currentDate = moment("2018-01-01", "YYYY-MM-DD");
     //RICHIAMO FUNZIONE PER AGGIORNARE TITOLO DATA
     aggiornaTitoloData(currentDate);
     //richiamo funzione per generare elenco date
