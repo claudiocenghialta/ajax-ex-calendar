@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: flex;
+
+}
+.container h1{
+    margin: 0 20px;
+}
+.holiday {
+    color:red;
+    font-weight: bold;
+}
